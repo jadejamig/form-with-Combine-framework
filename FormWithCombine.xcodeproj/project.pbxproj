@@ -11,6 +11,8 @@
 		D206C9342679BB8F00FA15C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206C9332679BB8F00FA15C4 /* ContentView.swift */; };
 		D206C9362679BB9300FA15C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D206C9352679BB9300FA15C4 /* Assets.xcassets */; };
 		D206C9392679BB9300FA15C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D206C9382679BB9300FA15C4 /* Preview Assets.xcassets */; };
+		D206C9422679BBCD00FA15C4 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D206C9412679BBCD00FA15C4 /* FormViewModel.swift */; };
+		D2A9668C2679C7CB0054F162 /* PasswordStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A9668B2679C7CB0054F162 /* PasswordStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		D206C9352679BB9300FA15C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D206C9382679BB9300FA15C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D206C93A2679BB9300FA15C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D206C9412679BBCD00FA15C4 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		D2A9668B2679C7CB0054F162 /* PasswordStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				D206C9312679BB8F00FA15C4 /* FormWithCombineApp.swift */,
 				D206C9332679BB8F00FA15C4 /* ContentView.swift */,
+				D2A9668A2679C7AB0054F162 /* Model */,
+				D206C9402679BBBC00FA15C4 /* ViewModel */,
 				D206C9352679BB9300FA15C4 /* Assets.xcassets */,
 				D206C93A2679BB9300FA15C4 /* Info.plist */,
 				D206C9372679BB9300FA15C4 /* Preview Content */,
@@ -67,6 +73,22 @@
 				D206C9382679BB9300FA15C4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D206C9402679BBBC00FA15C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D206C9412679BBCD00FA15C4 /* FormViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D2A9668A2679C7AB0054F162 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2A9668B2679C7CB0054F162 /* PasswordStatus.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D206C9422679BBCD00FA15C4 /* FormViewModel.swift in Sources */,
 				D206C9342679BB8F00FA15C4 /* ContentView.swift in Sources */,
+				D2A9668C2679C7CB0054F162 /* PasswordStatus.swift in Sources */,
 				D206C9322679BB8F00FA15C4 /* FormWithCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
